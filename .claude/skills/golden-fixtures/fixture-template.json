@@ -1,0 +1,21 @@
+{
+  "source": "JPL Horizons",
+  "source_url": "https://ssd.jpl.nasa.gov/horizons/app.html",
+  "retrieved": "2026-07-14",
+  "source_config": "PASTE the exact settings summary from the source UI here",
+  "location": {
+    "name": "Faro",
+    "lat": 37.0194,
+    "lon": -7.9304,
+    "elevation_m": 10,
+    "tz": "Europe/Lisbon"
+  },
+  "tolerance": { "angle_arcmin": 1, "time_seconds": 60 },
+  "cases": [
+    {
+      "id": "jupiter-rise-2026-07-20",
+      "input": { "body": "Jupiter", "date": "2026-07-20" },
+      "expected": { "rise_utc": "REPLACE", "set_utc": "REPLACE", "transit_alt_deg": 0 }
+    }
+  ]
+}
