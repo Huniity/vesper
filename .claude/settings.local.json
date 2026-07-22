@@ -1,6 +1,9 @@
 {
-  "claudeMdExcludes": [],
   "permissions": {
-    "allow": []
-  }
+    "allow": [
+      "Bash(grep -n \"^#\\\\{1,3\\\\} \\\\|^- \\\\[ \\\\] \\\\*\\\\*T\\\\|^\\\\*\\\\*T\" /workspaces/vesper/docs/BACKLOG.md)",
+      "Bash(timeout 300 pnpm format:check)"
+    ]
+  },
+  "claudeMdExcludes": []
 }

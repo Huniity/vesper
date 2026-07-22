@@ -1,0 +1,20 @@
+{
+  "name": "@vesper/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ingestors, alert engine and push dispatch. Node 20 on Railway.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vesper/astro-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "typescript": "~5.9.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@vesper/astro-core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pure-TS ephemeris, visibility scoring and pass logic. Runs on device and in the worker.",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.10"
+  }
+}

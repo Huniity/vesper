@@ -1,0 +1,11 @@
+node_modules
+dist
+.expo
+pnpm-lock.yaml
+
+# Catalogs are generated data, not hand-authored source.
+packages/astro-core/src/catalogs
+
+# Docs and design sheets are hand-written prose — Prettier reflows them into
+# noisy diffs and PROJECT.md / BACKLOG.md are source-of-truth. Leave them alone.
+**/*.md
