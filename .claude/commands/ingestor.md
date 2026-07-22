@@ -1,4 +1,4 @@
--
+---
 description: Scaffold a new worker ingestor following the four-beat pattern
 argument-hint: <name> <source-url> <cadence>
 ---

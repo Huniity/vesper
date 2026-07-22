@@ -1,0 +1,15 @@
+# Placeholder so the tree matches PROJECT.md §10.
+# TODO(T1.5): trigger on push/PR to main and add the real gate
+# (pnpm install -> typecheck -> lint -> test), then enable branch protection.
+# Manual-dispatch only for now so an unfinished gate can never block a push.
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Not wired up yet
+        run: echo "CI is configured in T1.5."

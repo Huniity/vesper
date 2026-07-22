@@ -1,0 +1,3 @@
+-- Seed data for local development.
+-- TODO(T1.3): one test device + Faro / Lisboa / Madrid locations.
+-- Placeholder so the tree matches PROJECT.md §10; intentionally a no-op.

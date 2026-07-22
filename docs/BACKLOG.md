@@ -70,9 +70,8 @@ Some of these have multi-day waiting periods. Everything here is blocking; none 
 - [x] `pnpm init` root with `pnpm-workspace.yaml` (`apps/*`, `packages/*`)
 - [x] Root `tsconfig.base.json` (strict: true) extended by each package
 - [x] Shared ESLint + Prettier config at root
-- [ ] Folder tree exactly as PROJECT.md §10 (empty files OK)
-  - done: `apps/worker/**`, `packages/astro-core/**`, `apps/mobile` dirs + 4 locale files, `supabase/migrations`, `docs/runbooks`, `.github/workflows`
-  - deliberately deferred to their owning tasks: `apps/mobile` expo files (T1.2), `supabase/seed.sql` (T1.3), `.github/workflows/ci.yml` (T1.5)
+- [x] Folder tree exactly as PROJECT.md §10 (empty files OK)
+  - every §10 path exists; placeholders carry a `TODO(<task id>)` naming the task that fills them (T1.2 expo files, T1.3 seed.sql, T1.5 ci.yml)
 
 ## T1.2 — Expo app init + first builds · 2 h
 *Why:* `create-expo-app` with expo-router gives you file-based routing immediately. The critical early step is producing a **dev build** on both platforms in week 1 — build problems found on Jul 14 are annoying; found on Aug 1 they're fatal. This build is also what unblocks the Play 12-tester clock (T0.2).
